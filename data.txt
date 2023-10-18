@@ -3,3 +3,16 @@
     e.g. 123 Confirm
 
     Thank you! We've added your card details Continue
+
+
+    sizes:
+    main left panel 483 width
+    main right white 96 width
+    main container height 900px
+
+    card 447 x 245
+
+    form element width 381 x 45
+    form button desk 380 w & mob 325 w
+
+
