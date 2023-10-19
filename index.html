@@ -13,11 +13,32 @@
     <title>Frontend Mentor | Interactive card details form</title>
   </head>
   <body>
-    <form>
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" />
-    </form>
+    <div class="wrapper">
+      <div class="container">
+        <div class="left">
+          <div class="front__card">
+            <div class="card__details">
+              <img src="./images/card-logo.svg" alt="card-logo" />
+              <h2>0000 0000 0000 0000</h2>
+              <div class="card__name">
+                <p>Jane Appleseed</p>
+                <p>00/00</p>
+              </div>
+            </div>
+          </div>
+          <div class="back__card">
+            <div class="cvv">
+              <p>000</p>
+            </div>
+          </div>
+        </div>
+        <form>
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" />
+        </form>
+      </div>
+    </div>
   </body>
 </html>
